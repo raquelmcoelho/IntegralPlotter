@@ -1,0 +1,8 @@
+compile = ["gfortran", "./main.f95", "-o", "main"]
+run = "./main"
+
+entrypoint = "main.f95"
+
+
+[nix]
+channel = "stable-21_11"
